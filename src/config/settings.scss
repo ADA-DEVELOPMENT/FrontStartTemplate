@@ -1,0 +1,30 @@
+//Палитра цветов
+$white: #ffffff;
+$black: #000000;
+
+//Главный ограничивающий контейнер
+$CONTAINER_WIDTH: 1100px;
+
+//Стили для тега body
+$FONT_FAMILY_DEFAULT: 'Montserrat', sans-serif;
+
+$FONT_SIZE: 16px;
+
+$FONT_WEIGHT: 400;
+
+$COLOR: $black;
+
+$LINE_HEIGHT: 150%;
+
+$LETTER_SPACING: inicial;
+
+//Чек-поинты устройств
+$DESKTOP_WIDE: 1920px;
+$DESKTOP: 1440px;
+$TABLET_WIDE: 1000px;
+$TABLET: 768px;
+$PHABLET: 560px;
+$MOBILE: 480px;
+
+//Значение transition-duration для анимаций
+$DURATION: 250ms;

@@ -1,0 +1,40 @@
+//Статические оболочки
+body {
+   font-family: $FONT_FAMILY_DEFAULT;
+   font-size: $FONT_SIZE;
+   font-weight: $FONT_WEIGHT;
+   color: $COLOR;
+   line-height: $LINE_HEIGHT;
+   letter-spacing: $LETTER_SPACING;
+}
+
+body.frozen {
+   overflow: hidden;
+}
+
+#root {
+   max-width: 100%;
+   min-height: 100%;
+   position: relative;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   transition-duration: $DURATION;
+   opacity: 1;
+   visibility: visible;
+
+   &[v-cloak] {
+      opacity: 0;
+      visibility: hidden;
+   }
+}
+
+.container {
+   max-width: $CONTAINER_WIDTH + 40;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.page {
+   flex: 1 1 auto;
+}
