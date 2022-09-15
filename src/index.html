@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   <meta name="description" content="front-end-template description">
+   <title>front-end-template</title>
+</head>
+
+<body>
+    <div id="root" class="wrapper" v-cloak>
+        <header class="header">
+   <the-header></the-header>
+</header>
+        <main class="page">
+            <section>
+                <h1>Hello World</h1>
+            </section>
+        </main>
+        
+        <div class="popap popap__sign-up-course sign-up" data-popap = 'sign-up'>
+   <div class="sign-up__container container popap__container">
+      <div class="sign-up__inner popap__inner">
+         <div class="sign-up__content popap__content">
+            <div class="sign-up__title popap__title title">
+               <h6 class="title__item"></h6>
+               <h3 class="title__main"></h3>
+               <p class="title__sub"></p>
+            </div>
+            <form class="sign-up__form user-form" method="post">
+               <input class='sign-up__name user-form__field' type="text" placeholder="Ваше имя">
+               <input class='sign-up__email user-form__field' type="email" placeholder="Электронная почта">
+               <input class='sign-up__tel user-form__field' type="number" placeholder="Номер телефона">
+               <button class="sign-up__button sign-up__button--submit button user-form__button" type="submit">
+                  <span></span>
+               </button>
+            </form>
+            <button class="sign-up__popap-close popap__button-close" data-popap-closeclick = 'sign-up-course'>
+               <span></span>
+            </button>
+         </div>
+      </div>
+   </div>
+</div>
+    </div>
+    <script src="https://unpkg.com/vue@3.2.36/dist/vue.global.prod.js"></script>
+<script src="assets/js/script.min.js"></script>
+</body>
+</html>

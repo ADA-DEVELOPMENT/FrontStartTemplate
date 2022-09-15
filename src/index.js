@@ -6,4 +6,4 @@ AppModules.runModule([
 ])
 
 Vue.createApp(AppVue)
-   .mount('#root')
+    .mount('#root')

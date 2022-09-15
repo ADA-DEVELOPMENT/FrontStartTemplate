@@ -17,11 +17,11 @@ export const pageWidth = $root.offsetWidth
 export const pageHeight = $root.offsetHeight
 
 export const viewportPoints = {
-   desktopWide: 1920,
-   desktop: 1280,
-   tabletWide: 1024,
-   tablet: 768,
-   mobile: 480,
+    desktopWide: 1920,
+    desktop: 1280,
+    tabletWide: 1024,
+    tablet: 768,
+    mobile: 480,
 }
 // required
 export const modules = {
